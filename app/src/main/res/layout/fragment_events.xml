@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/android_card_view_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/e1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/e1" />
+
+            <TextView
+                android:id="@+id/text_events"
+                style="@style/UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@id/e1"
+                android:layout_toRightOf="@id/e1"
+                android:text="@string/bt"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/short_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/e1"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-61dp"
+                android:layout_toEndOf="@+id/e1"
+                android:layout_toRightOf="@+id/e1"
+                android:text="@string/nice_botanical_garden_with_a_free_part_at_the_outside_and_a_small_admission_for_the_glasshouse_with_tropical_plants_and_the_butterfly_house"
+                android:textColor="#8b8b8b" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/android_card_view_example1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/e2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/e2" />
+
+            <TextView
+                android:id="@+id/text_events2"
+                style="@style/UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@id/e2"
+                android:layout_toRightOf="@id/e2"
+                android:text="@string/tivoli_aarhus"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/short_description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/e2"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-61dp"
+                android:layout_toEndOf="@+id/e2"
+                android:layout_toRightOf="@+id/e2"
+                android:text="@string/tivoli"
+                android:textColor="#8b8b8b" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/android_card_view_example3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/e3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/e3" />
+
+            <TextView
+                android:id="@+id/text_events3"
+                style="@style/UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@id/e3"
+                android:layout_toRightOf="@id/e3"
+                android:text="@string/the_derk_park"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/short_description3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/e3"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-61dp"
+                android:layout_toEndOf="@+id/e3"
+                android:layout_toRightOf="@+id/e3"
+                android:text="@string/derrpark"
+                android:textColor="#8b8b8b" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

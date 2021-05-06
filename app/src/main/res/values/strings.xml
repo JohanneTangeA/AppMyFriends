@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyNAvigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_events">Events</string>
+    <string name="botinical_garden">Botinical Garden</string>
+    <string name="nice_botanical_garden_with_a_free_part_at_the_outside_and_a_small_admission_for_the_glasshouse_with_tropical_plants_and_the_butterfly_house">Nice botanical garden with a free part at the outside, and a small admission for the glasshouse with tropical plants and the butterfly house</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="log_out">Log Out</string>
+    <string name="tivoli">Bring the a friend to Tivoli Friheden in Aarhus and try the many rides, the park has to offer.</string>
+    <string name="tivoli_rhus">Tivoli Århus</string>
+    <string name="tivoli_aarhus">Tivoli Aarhus</string>
+    <string name="the_derk_park">The Derk Park</string>
+    <string name="derrpark">Marselisborg Deer Park is not a deer park in the original sense, as it is not meant for hunting deer. The idea is more like a small safari park.</string>
+    <string name="bt">Botanical Garden</string>
+
+
+</resources>

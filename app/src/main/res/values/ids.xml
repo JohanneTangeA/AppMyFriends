@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_name" type="id" />
+    <item name="iv_icon" type="id" />
+    <item name="rv" type="id" />
+    <item name="action_loggedInFragment_to_loginRegisterFragment" type="id" />
+    <item name="fragment_loggedin_loggedInUser" type="id" />
+    <item name="fragment_loggedin_logOut" type="id" />
+    <item name="action_loginRegisterFragment_to_loggedInFragment" type="id" />
+    <item name="fragment_loginregister_email" type="id" />
+    <item name="fragment_loginregister_password" type="id" />
+    <item name="fragment_loginregister_login" type="id" />
+    <item name="fragment_loginregister_register" type="id" />
+</resources>

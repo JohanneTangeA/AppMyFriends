@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "934876693537",
+    "project_id": "mynavigation-a7187",
+    "storage_bucket": "mynavigation-a7187.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934876693537:android:5a55926134fecf80420f60",
+        "android_client_info": {
+          "package_name": "com.example.mynavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934876693537-39i6ji2gjn9ot1bv47vp06u8qf5simof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIx-8zwYxTxVFL4wrWZwdjfAKIhrqEvvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934876693537-39i6ji2gjn9ot1bv47vp06u8qf5simof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
