@@ -22,4 +22,33 @@
         android:name="com.example.mynavigation.ui.events.EventsFragment"
         android:label="@string/menu_events"
         tools:layout="@layout/fragment_events" />
+
+    <fragment
+        android:id="@+id/nav_helpfeedback"
+        android:name="com.example.mynavigation.ui.help.HelpAndFeedbackFragment"
+        android:label="@string/menu_helpandfeedback"
+        tools:layout="@layout/fragment_helpfeedback" />
+
+
+    <fragment
+        android:name="com.example.mynavigation.view.LoginRegisterFragment"
+        android:id="@+id/loginRegisterFragment"
+        android:label="LoginRegisterFragment" >
+        <action
+            android:id="@+id/action_loginRegisterFragment_to_loggedInFragment"
+            app:destination="@id/loggedInFragment" />
+    </fragment>
+    <fragment
+        android:name="com.example.mynavigation.view.LoggedInFragment"
+        android:id="@+id/loggedInFragment"
+        android:label="LoggedInFragment" >
+        <action
+            android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
+            app:destination="@id/loginRegisterFragment" />
+    </fragment>
+    <fragment
+        android:name="com.example.mynavigation.DetailFragment"
+        android:id="@+id/DetailFragment"
+        android:label="DetailFragment" >
+    </fragment>
 </navigation>

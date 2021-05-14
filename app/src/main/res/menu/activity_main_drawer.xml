@@ -16,5 +16,11 @@
             android:id="@+id/nav_events"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_events" />
+        <item
+            android:id="@+id/nav_helpfeedback"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/menu_helpandfeedback" />
+
+
     </group>
 </menu>

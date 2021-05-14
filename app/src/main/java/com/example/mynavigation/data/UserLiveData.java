@@ -1,4 +1,5 @@
-package com.example.mynavigation;
+package com.example.mynavigation.data;
+
 
 
 import androidx.lifecycle.LiveData;
@@ -9,7 +10,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class UserLiveData extends LiveData<FirebaseUser> {
     private final FirebaseAuth.AuthStateListener listener = firebaseAuth -> setValue(firebaseAuth.getCurrentUser());
 
-    @Override
+@Override
     protected void onActive() {
         super.onActive();
         FirebaseAuth.getInstance().addAuthStateListener(listener);

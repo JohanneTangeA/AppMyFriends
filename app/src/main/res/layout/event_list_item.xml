@@ -10,63 +10,37 @@
     >
 
     <RelativeLayout
-        android:id="@+id/relative"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/lightblue"
         android:padding="16dp">
 
-        <ImageView
-            android:id="@+id/iv_icon"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/p1" />
 
         <TextView
-            android:id="@+id/tv_name"
-            style="@style/UserName"
+            android:id="@+id/tv_title"
+            style="@style/Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="9dp"
-            android:layout_toEndOf="@id/iv_icon"
-            android:layout_toRightOf="@id/iv_icon"
-            android:text="Martin"
-            android:textStyle="bold"
+            android:text="Event"
             android:textColor="@color/black"
             android:textSize="15sp" />
 
         <TextView
-            android:id="@+id/tv_desc"
-            style="@style/Description"
+            android:id="@+id/tv_descriptionE"
+            style="@style/descriptionE"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="47dp"
-            android:layout_toEndOf="@id/iv_icon"
-            android:layout_toRightOf="@id/iv_icon"
-            android:text="hej"
+            android:layout_marginTop="18dp"
+            android:text="description E"
             android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="normal" />
-
-        <TextView
-            android:id="@+id/tv_numb"
-            style="@style/Description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_toEndOf="@id/iv_icon"
-            android:layout_toRightOf="@id/iv_icon"
-            android:text="hej"
-            android:textStyle="normal"
-            android:textColor="@color/lightblue"
             android:textSize="15sp" />
-
 
 
     </RelativeLayout>

@@ -34,7 +34,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         android:src="@drawable/ic_baseline_add_circle_outline_24"
-        app:backgroundTint="@color/orangebrown" />
+        app:backgroundTint="#5CA9ED" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

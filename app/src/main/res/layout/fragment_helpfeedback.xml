@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".ui.help.HelpAndFeedbackFragment"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_help_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="208dp"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/text_helpfeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="@color/black"
+        android:text="@string/contact"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="49dp"
+        />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="232dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:text="@string/number"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="190dp" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="232dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawableLeft="@drawable/ic_email"
+        android:text="www.newFriendsApp@outlook.com"
+        android:textSize="12sp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="190dp" />
+
+</LinearLayout>

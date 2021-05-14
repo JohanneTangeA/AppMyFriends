@@ -11,4 +11,9 @@
     <item name="fragment_loginregister_password" type="id" />
     <item name="fragment_loginregister_login" type="id" />
     <item name="fragment_loginregister_register" type="id" />
+    <item name="tv_title" type="id" />
+    <item name="tv_description" type="id" />
+    <item name="ev" type="id" />
+    <item name="nav_view_bottom" type="id" />
+
 </resources>

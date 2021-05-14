@@ -12,7 +12,7 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_events">Events</string>
     <string name="botinical_garden">Botinical Garden</string>
-    <string name="nice_botanical_garden_with_a_free_part_at_the_outside_and_a_small_admission_for_the_glasshouse_with_tropical_plants_and_the_butterfly_house">Nice botanical garden with a free part at the outside, and a small admission for the glasshouse with tropical plants and the butterfly house</string>
+    <string name="botanical">Nice botanical garden with a free part at the outside, and a small admission for the glasshouse with tropical plants and the butterfly house</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
@@ -24,6 +24,13 @@
     <string name="the_derk_park">The Derk Park</string>
     <string name="derrpark">Marselisborg Deer Park is not a deer park in the original sense, as it is not meant for hunting deer. The idea is more like a small safari park.</string>
     <string name="bt">Botanical Garden</string>
+    <string name="AddProfile">Add profile to meet new friends</string>
+    <string name="back_to_homepage">Back to homepage</string>
+    <string name="aros">Discover 10 floors of art and the city\'s best views from Your rainbow panorama on the ARoS roof.</string>
+    <string name="help_and_feedback">Help and feedback</string>
+    <string name="menu_helpandfeedback">Help and feedback</string>
+    <string name="contact">Should you have any questions or concerns, please contact us</string>
+    <string name="number">80 80 80 80</string>
 
 
 </resources>

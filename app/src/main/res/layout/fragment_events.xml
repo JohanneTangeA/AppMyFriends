@@ -9,12 +9,13 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/android_card_view_example"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#fff"
+            android:background="@color/lightblue"
             android:padding="16dp">
 
             <ImageView
@@ -28,8 +29,8 @@
                 style="@style/UserName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="27dp"
-                android:layout_marginLeft="27dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
                 android:layout_marginTop="21dp"
                 android:layout_toEndOf="@id/e1"
                 android:layout_toRightOf="@id/e1"
@@ -47,8 +48,8 @@
                 android:layout_marginTop="-61dp"
                 android:layout_toEndOf="@+id/e1"
                 android:layout_toRightOf="@+id/e1"
-                android:text="@string/nice_botanical_garden_with_a_free_part_at_the_outside_and_a_small_admission_for_the_glasshouse_with_tropical_plants_and_the_butterfly_house"
-                android:textColor="#8b8b8b" />
+                android:text="@string/botanical"
+                android:textColor="@color/black" />
 
         </RelativeLayout>
 
@@ -62,7 +63,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#fff"
+            android:background="@color/lightblue"
             android:padding="16dp">
 
             <ImageView
@@ -76,8 +77,8 @@
                 style="@style/UserName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="27dp"
-                android:layout_marginLeft="27dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
                 android:layout_marginTop="21dp"
                 android:layout_toEndOf="@id/e2"
                 android:layout_toRightOf="@id/e2"
@@ -87,6 +88,7 @@
 
             <TextView
                 android:id="@+id/short_description2"
+                android:textColor="@color/black"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/e2"
@@ -96,7 +98,7 @@
                 android:layout_toEndOf="@+id/e2"
                 android:layout_toRightOf="@+id/e2"
                 android:text="@string/tivoli"
-                android:textColor="#8b8b8b" />
+                 />
 
         </RelativeLayout>
 
@@ -111,7 +113,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#fff"
+            android:background="@color/lightblue"
             android:padding="16dp">
 
             <ImageView
@@ -125,8 +127,8 @@
                 style="@style/UserName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="27dp"
-                android:layout_marginLeft="27dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
                 android:layout_marginTop="21dp"
                 android:layout_toEndOf="@id/e3"
                 android:layout_toRightOf="@id/e3"
@@ -145,12 +147,60 @@
                 android:layout_toEndOf="@+id/e3"
                 android:layout_toRightOf="@+id/e3"
                 android:text="@string/derrpark"
-                android:textColor="#8b8b8b" />
+                android:textColor="@color/black" />
 
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/android_card_view_example4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightblue"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/e4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/e4" />
+
+            <TextView
+                android:id="@+id/text_events4"
+                style="@style/UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@id/e4"
+                android:layout_toRightOf="@id/e4"
+                android:text="Aros museum"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/short_description4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/e4"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-61dp"
+                android:layout_toEndOf="@+id/e4"
+                android:layout_toRightOf="@+id/e4"
+                android:text="@string/aros"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
 
 
 </LinearLayout>
