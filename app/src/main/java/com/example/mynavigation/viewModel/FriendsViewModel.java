@@ -13,11 +13,11 @@ import com.example.mynavigation.Repository.FriendsRepository;
 
 import java.util.List;
 
-public class FriendsVM extends AndroidViewModel {
+public class FriendsViewModel extends AndroidViewModel {
     private FriendsRepository friendsRepository;
     private LiveData<List<Friend>> friendsList;
 
-    public FriendsVM(@NonNull Application application) {
+    public FriendsViewModel(@NonNull Application application) {
         super(application);
 
         friendsRepository = FriendsRepository.getInstance(application);

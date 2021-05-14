@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.mynavigation.Model.Friend;
-import com.example.mynavigation.viewModel.FriendsVM;
+import com.example.mynavigation.viewModel.FriendsViewModel;
 
 public class NewUserActivity extends AppCompatActivity {
 
@@ -19,7 +19,7 @@ public class NewUserActivity extends AppCompatActivity {
     EditText description;
     Button btn;
     Button bton;
-    FriendsVM friendsVM;
+    FriendsViewModel friendsVM;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class NewUserActivity extends AppCompatActivity {
         btn = (Button) findViewById(R.id.button_add);
         bton = (Button) findViewById(R.id.button_back);
 
-        friendsVM = new ViewModelProvider(this).get(FriendsVM.class);
+        friendsVM = new ViewModelProvider(this).get(FriendsViewModel.class);
 
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
