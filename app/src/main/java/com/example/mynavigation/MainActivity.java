@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.Menu;
 
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, NewUserActivity.class));
+                startActivity(new Intent(MainActivity.this, NewFriendActivity.class));
             }
         });
 

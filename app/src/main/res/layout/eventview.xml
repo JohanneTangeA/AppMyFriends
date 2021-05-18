@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ddd"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:backgroundTint="@color/newlightblue">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/android_card_view_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightblue"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/imageEvent"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/e1" />
+
+            <TextView
+                android:id="@+id/text_events"
+                style="Events"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@id/imageEvent"
+                android:layout_toRightOf="@id/imageEvent"
+                android:text="@string/bt"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/short_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageEvent"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-102dp"
+                android:layout_toEndOf="@+id/imageEvent"
+                android:layout_toRightOf="@+id/imageEvent"
+                android:text="@string/botanical"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

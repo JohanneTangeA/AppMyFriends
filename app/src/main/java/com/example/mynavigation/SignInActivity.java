@@ -4,12 +4,13 @@ package com.example.mynavigation;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.mynavigation.viewModel.LoginRegisterViewModel;
+import com.example.mynavigation.viewModel.SignInViewModel;
 import com.firebase.ui.auth.AuthUI;
 
 import java.util.Arrays;
@@ -17,14 +18,23 @@ import java.util.List;
 
 public class SignInActivity extends AppCompatActivity {
     private static final int RC_SIGN_IN = 42;
-    private LoginRegisterViewModel viewModel;
+    private SignInViewModel viewModel;
+    private Button registerBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        viewModel = new ViewModelProvider(this).get(LoginRegisterViewModel .class);
+        viewModel = new ViewModelProvider(this).get(SignInViewModel.class);
         checkIfSignedIn();
         setContentView(R.layout.fragment_loginregister);
+        registerBtn = findViewById(R.id.fragment_loginregister_register);
+
+        registerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SignInActivity.this, RegisterUserActivity.class));
+            }
+        });
     }
 
     private void checkIfSignedIn() {

@@ -31,6 +31,11 @@
     <string name="menu_helpandfeedback">Help and feedback</string>
     <string name="contact">Should you have any questions or concerns, please contact us</string>
     <string name="number">80 80 80 80</string>
+    <string name="thomas_helmig">Thomas helmig</string>
+    <string name="th" />
+    <string name="thomas">thomas</string>
+    <string name="events">Events</string>
+    <string name="concerts">Concerts</string>
 
 
 </resources>

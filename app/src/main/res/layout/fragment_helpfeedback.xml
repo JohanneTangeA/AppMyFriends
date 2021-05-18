@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightblue"
-    tools:context=".ui.help.HelpAndFeedbackFragment"
+    tools:context=".view.HelpAndFeedbackFragment"
     android:orientation="vertical">
 
 

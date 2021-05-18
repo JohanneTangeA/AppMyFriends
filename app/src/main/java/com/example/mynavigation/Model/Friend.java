@@ -9,10 +9,32 @@ public class Friend {
     private int id;
     private String name;
     private String description;
+    private String age;
+    private String phone;
 
-    public Friend(String name, String description) {
+
+    public Friend(String name, String description, String age, String phone) {
         this.name = name;
         this.description = description;
+        this.age = age;
+        this.phone = phone;
+
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 
     public String getName() {

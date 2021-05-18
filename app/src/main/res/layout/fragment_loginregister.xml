@@ -4,16 +4,17 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/myotherblue">
+    android:background="@color/lightblue">
 
 
     <EditText
-        android:id ="@+id/fragment_loginregister_email"
+        android:id="@+id/fragment_loginregister_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:hint="@string/email" />
+        android:layout_marginTop="190dp"/>
 
     <EditText
         android:id ="@+id/fragment_loginregister_password"
@@ -28,13 +29,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"
-        android:onClick="signIn"/>
+        android:onClick="signIn"
+        android:backgroundTint="@color/myother"/>
 
     <Button
         android:id="@+id/fragment_loginregister_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/register"
-        />
+        android:backgroundTint="@color/myother"
+        android:text="@string/register" />
 
 </LinearLayout>

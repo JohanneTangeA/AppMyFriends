@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.mynavigation.ui.home.HomeFragment"
+        android:name="com.example.mynavigation.view.FriendsFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.mynavigation.ui.gallery.GalleryFragment"
+        android:name="com.example.mynavigation.view.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_events"
-        android:name="com.example.mynavigation.ui.events.EventsFragment"
+        android:name="com.example.mynavigation.view.EventsFragment"
         android:label="@string/menu_events"
         tools:layout="@layout/fragment_events" />
 
     <fragment
         android:id="@+id/nav_helpfeedback"
-        android:name="com.example.mynavigation.ui.help.HelpAndFeedbackFragment"
+        android:name="com.example.mynavigation.view.HelpAndFeedbackFragment"
         android:label="@string/menu_helpandfeedback"
         tools:layout="@layout/fragment_helpfeedback" />
 
