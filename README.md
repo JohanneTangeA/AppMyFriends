@@ -23,4 +23,3 @@ Should have: Location specification
 Could have: Suggestions about friends-matches 
 
 Will not have: Video function AND Call function
-![image](https://user-images.githubusercontent.com/80471662/111177506-92dfb100-85aa-11eb-94fa-7f6607d804cb.png)
