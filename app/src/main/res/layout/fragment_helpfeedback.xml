@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:textColor="@color/black"
+        android:layout_gravity="center_vertical|end"
         android:text="@string/contact"
         android:textSize="18sp"
         android:textStyle="italic"
@@ -54,12 +55,13 @@
         android:layout_width="232dp"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
         android:drawableStart="@drawable/ic_email"
         android:drawableLeft="@drawable/ic_email"
         android:text="www.newFriendsApp@outlook.com"
         android:textSize="12sp"
         tools:ignore="MissingConstraints"
-        android:layout_marginLeft="190dp" />
+        android:layout_marginLeft="198dp" />
 
 </LinearLayout>

@@ -12,35 +12,32 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mynavigation.Adapters.ConcertAdapter;
-import com.example.mynavigation.Adapters.EventAdapter;
 import com.example.mynavigation.Model.Concert;
-import com.example.mynavigation.Model.Event;
 import com.example.mynavigation.R;
-import com.example.mynavigation.viewModel.EventsViewModel;
-import com.example.mynavigation.viewModel.GalleryViewModel;
+import com.example.mynavigation.viewModel.ConcertViewModel;
 
 import java.util.ArrayList;
 
-public class GalleryFragment extends Fragment {
+public class ConcertFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private ConcertViewModel concertViewModel;
     private RecyclerView recyclerViewConcerts;
     private ArrayList<Concert> concerts = new ArrayList<>();
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        concertViewModel =
+                new ViewModelProvider(this).get(ConcertViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_concert, container, false);
 
         System.out.println("Events: " + concerts);
-        galleryViewModel.init();
-        galleryViewModel.concerts();
+        concertViewModel.init();
+        concertViewModel.concerts();
         recyclerViewConcerts = root.findViewById(R.id.recyclerview_concerts);
         recyclerViewConcerts.setHasFixedSize(true);
         recyclerViewConcerts.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        ConcertAdapter adapter = new ConcertAdapter(galleryViewModel.concerts().getValue());
+        ConcertAdapter adapter = new ConcertAdapter(concertViewModel.concerts().getValue());
         recyclerViewConcerts.setAdapter(adapter);
 
         return root;

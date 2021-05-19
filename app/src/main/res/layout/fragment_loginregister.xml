@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/lightblue">
 
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="260dp"
+        android:layout_height="240dp"
+        android:src="@drawable/friendfinder"
+        android:layout_marginTop="60dp"
+        android:layout_margin="70dp"/>
+
 
     <EditText
         android:id="@+id/fragment_loginregister_email"
@@ -14,7 +22,7 @@
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="190dp"/>
+        android:layout_marginTop="10dp"/>
 
     <EditText
         android:id ="@+id/fragment_loginregister_password"

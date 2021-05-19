@@ -10,12 +10,12 @@ import com.example.mynavigation.Repository.ConcertRepository;
 
 import java.util.ArrayList;
 
-public class GalleryViewModel extends ViewModel {
+public class ConcertViewModel extends ViewModel {
 
     private MutableLiveData<ArrayList<Concert>> concert;
     private ConcertRepository concertRepository;
 
-    public GalleryViewModel() {
+    public ConcertViewModel() {
         concertRepository = ConcertRepository.getInstance();
     }
 

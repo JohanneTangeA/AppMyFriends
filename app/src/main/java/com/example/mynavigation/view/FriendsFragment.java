@@ -17,6 +17,7 @@ import com.example.mynavigation.R;
 import com.example.mynavigation.Adapters.FriendAdapter;
 import com.example.mynavigation.viewModel.FriendsViewModel;
 
+import java.util.Collections;
 import java.util.List;
 
 public class FriendsFragment extends Fragment implements FriendAdapter.OnListItemClickListener {
@@ -33,7 +34,7 @@ public class FriendsFragment extends Fragment implements FriendAdapter.OnListIte
                              ViewGroup container, Bundle savedInstanceState) {
         friendsVM = new ViewModelProvider(this).get(FriendsViewModel.class);
         friendsViewModel = new ViewModelProvider(requireActivity()).get(FriendsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        View root = inflater.inflate(R.layout.fragment_friends, container, false);
 
         mFriendList = root.findViewById(R.id.rv);
         mFriendList.hasFixedSize();
@@ -45,6 +46,7 @@ public class FriendsFragment extends Fragment implements FriendAdapter.OnListIte
             public void onChanged(List<Friend> friends) {
                 mFriendAdapter = new FriendAdapter(friends, FriendsFragment.this);
                 mFriendList.setAdapter(mFriendAdapter);
+                Collections.reverse(friends);
             }
         });
 

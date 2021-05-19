@@ -24,9 +24,6 @@ public class User {
         return mName;
     }
 
-   // public int getIconId() {
-    //return mIconId;
-    //}
     public String getDesc() {
         return description;
     }

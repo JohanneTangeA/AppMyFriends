@@ -4,17 +4,20 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.example.mynavigation.Model.HelpAndFeedback;
+import com.example.mynavigation.Repository.HelpAndFeedbackRepository;
+
 public class HelpAndFeedbackViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private MutableLiveData<HelpAndFeedback> helpAndFeedbackMutableLiveData = new MutableLiveData();
+    private HelpAndFeedbackRepository helpAndFeedbackRepository;
 
     public HelpAndFeedbackViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("Should you have any questions or concerns, please contact us");
+        helpAndFeedbackRepository = HelpAndFeedbackRepository.getInstance();
+    }
+    public LiveData<HelpAndFeedback> getText() {
+        return helpAndFeedbackRepository.getHelpAndFeedback();
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
 }
 

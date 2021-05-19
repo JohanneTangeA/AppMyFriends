@@ -9,13 +9,13 @@
         android:id="@+id/nav_home"
         android:name="com.example.mynavigation.view.FriendsFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_friends" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.mynavigation.view.GalleryFragment"
+        android:name="com.example.mynavigation.view.ConcertFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_concert" />
 
     <fragment
         android:id="@+id/nav_events"
