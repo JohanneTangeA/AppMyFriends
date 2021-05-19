@@ -3,7 +3,7 @@
 //////////Find friends////////
 
 YOUTUBE LINK PRESENTING THE APP:
-https://www.youtube.com/watch?v=l4L2Muf5IKk&t=12s 
+https://www.youtube.com/watch?v=l4L2Muf5IKk&t=0s 
 
 A brief description of the application and the motivation behind it.
 
