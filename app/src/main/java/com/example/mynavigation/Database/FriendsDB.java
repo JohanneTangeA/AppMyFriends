@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase;
 import com.example.mynavigation.DAO.FriendDAO;
 import com.example.mynavigation.Model.Friend;
 
-@Database(entities = {Friend.class}, version = 6)
+@Database(entities = {Friend.class}, version = 7)
 public abstract class FriendsDB extends RoomDatabase {
 
     private static FriendsDB instance;
