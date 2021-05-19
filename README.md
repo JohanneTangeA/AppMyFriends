@@ -2,6 +2,9 @@
 
 //////////Find friends////////
 
+YOUTUBE LINK PRESENTING THE APP:
+https://www.youtube.com/watch?v=l4L2Muf5IKk&t=12s 
+
 A brief description of the application and the motivation behind it.
 
 The Find friends app is the app for today's Denmark. After corona, there are many people who feel alone and this is what this app wants to change.
