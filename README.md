@@ -28,6 +28,7 @@ Posts
 Direct messages
 
 Activities 
+
 	
 Should have: Location specification
 
