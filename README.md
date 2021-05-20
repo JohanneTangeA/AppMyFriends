@@ -5,9 +5,9 @@
 YOUTUBE LINK PRESENTING THE APP:
 https://www.youtube.com/watch?v=l4L2Muf5IKk&t=0s 
 
-Requirements that was delivered: Login, Posts and actitivites
+Requirements that was delivered: Login, Posts, concerts and actitivites
 
-Requirements that was not delivered: Location, Direct messages, suggestions about friend-matches
+Requirements that was not delivered: Location, Direct messages, suggestions about friend-matches, camera function
 
 
 
@@ -23,15 +23,17 @@ Must have:
 
 Login - user account
 
-Posts 
+Posts for users who are loged in
 
 Direct messages
 
-Activities 
+Page for activities to do with friends
+
+PAge for concerts to do with friends
 
 	
 Should have: Location specification
 
-Could have: Suggestions about friends-matches 
+Could have: Suggestions about friends-matches, camera function for pictueres
 
 Will not have: Video function AND Call function
