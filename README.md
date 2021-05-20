@@ -29,7 +29,7 @@ Direct messages
 
 Page for activities to do with friends
 
-PAge for concerts to do with friends
+Page for concerts to do with friends
 
 	
 Should have: Location specification
