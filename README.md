@@ -5,7 +5,7 @@
 YOUTUBE LINK PRESENTING THE APP:
 https://www.youtube.com/watch?v=l4L2Muf5IKk&t=0s 
 
-Requirements that was delivered: Login, Posts, concerts and actitivites
+Requirements that was delivered: Login function, Posts, concerts and actitivity page
 
 Requirements that was not delivered: Location, Direct messages, suggestions about friend-matches, camera function
 
