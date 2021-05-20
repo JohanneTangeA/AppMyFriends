@@ -17,7 +17,7 @@ With the app the user create a profile to search for new friends. The main purpo
 
 
 
-MoSCoW Prioritization Find friends
+MoSCoW Prioritization for Find friends App
 
 Must have:
 
