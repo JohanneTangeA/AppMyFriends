@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=l4L2Muf5IKk&t=0s
 
 Requirements that was delivered: Login, Posts and actitivites
 
-Requirements that was delivered: Location, Direct messages, suggestions about friend-matches
+Requirements that was not delivered: Location, Direct messages, suggestions about friend-matches
 
 
 
